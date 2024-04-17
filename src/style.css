@@ -57,7 +57,7 @@ body {
   height: 70%;
   width: 100%;
   background-color: orange;
-  background: url(https://images.pexels.com/photos/14046247/pexels-photo-14046247.jpeg?auto=compress&cs=tinysrgb&w=400)
+  background: url(Batman.jpg)
     no-repeat scroll center;
   background-size: cover;
 }
@@ -123,6 +123,9 @@ body {
   justify-content: space-between;
   padding-right: 50px;
 }
+#work1 i{
+  font-size: 35px;
+}
 #work1 h3 {
   font-size: 30px;
 }
@@ -130,4 +133,38 @@ body {
   width: 65%;
   height: 100%;
   /* background-color: red; */
+  padding: 0 60px;
+}
+.work2-part{
+  /* background: red; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.work2-part:nth-child(1){
+  padding-top: 0;
+  border-bottom: 2px solid black;
+  /* background-color: aqua; */
+}
+.work2-part .elem{
+  width: 50%;
+  height: 100%;
+}
+.work2-part .elem:nth-child(1){
+  border-right: 2px solid black;
+  padding-right: 50px;
+}
+.work2-part .elem:nth-child(2){
+  padding-left: 40px;
+}
+.work2-part .elem h4{
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+.work2-part .elem p{
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 20px;
 }
